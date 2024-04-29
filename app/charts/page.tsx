@@ -81,7 +81,7 @@ const Page = () => {
       <div className="h-full">
         <div className=" justify-center items-center h-screen m-4 mt-10 lg:mt-20">
           <div className=" text-center sm:px-16 xl:px-48 mb-10 md:mb-16">
-            <h1 className="mb-4  text-3xl font-extrabold leading-none tracking-wide text-gray-600 md:text-4xl lg:text-4xl dark:text-white">
+            <h1 className="mb-4  text-3xl font-extrabold leading-none tracking-wide text-gray-600 md:text-4xl lg:text-4xl ">
             अपने राज्य के अनुसार जानकारी चुनें
             </h1>
           </div>
@@ -175,7 +175,7 @@ const Page = () => {
           </div>
           {selectedToYear && (
             <div className="flex justify-center mt-6 sm:px-16 md:px-18 xl:px-48 mb-10 md:mb-16">
-              <div className="mb-4 w-8/12  leading-none lg:text-4xl dark:text-white">
+              <div className="mb-4 w-8/12  leading-none lg:text-4xl ">
                 <div className="">
                   <Link
                     href={{

@@ -6,10 +6,10 @@ export default function Home() {
     <main className="mb-10">
       <div className="justify-center items-center m-4 mt-10 lg:mt-20">
         <div className=" text-left sm:px-16 xl:px-48">
-          <h1 className="mb-4  text-3xl font-extrabold leading-none tracking-normal text-gray-700 md:text-4xl lg:text-4xl dark:text-white">
+          <h1 className="mb-4  text-3xl font-extrabold leading-none tracking-normal text-gray-700 md:text-4xl lg:text-4xl">
           मेटडेटा
           </h1>
-          <p className="mb-6 text-left font-normal text-gray-600 lg:text-xl  dark:text-gray-400 leading-7">
+          <p className="mb-6 text-left font-normal text-gray-600 lg:text-xl  leading-7">
           सभी जिलों के लिए 13 जलवायु मापदंडों के लिए मौसम संबंधी डेटासेट
             1901 से 2002 तक भारत के जलवायु पैरामीटर शामिल हैं:
             वर्षा, अधिकतम, न्यूनतम और औसत तापमान, बादल आवरण, वाष्प
@@ -20,18 +20,18 @@ export default function Home() {
           </p>
         </div>
         <div className=" text-left sm:px-16 xl:px-48">
-          <h1 className="mb-4  text-xl font-semibold leading-none tracking-normal text-gray-700 md:text-2xl lg:text-3xl dark:text-white">
+          <h1 className="mb-4  text-xl font-semibold leading-none tracking-normal text-gray-700 md:text-2xl lg:text-3xl">
           डेटा का स्रोत
           </h1>
-          <p className="mb-6 text-left font-normal text-gray-600 lg:text-xl  dark:text-gray-400">
+          <p className="mb-6 text-left font-normal text-gray-600 lg:text-xl  ">
           इंडिया वॉटर पोर्टल, टाइन्डल सेंटर फॉर क्लाइमेट चेंज रिसर्च
           </p>
         </div>
         <div className=" text-left sm:px-16 xl:px-48">
-          <h1 className="mb-4  text-xl font-semibold leading-none tracking-normal text-gray-700 md:text-2xl lg:text-3xl dark:text-white">
+          <h1 className="mb-4  text-xl font-semibold leading-none tracking-normal text-gray-700 md:text-2xl lg:text-3xl ">
           डेटा की पृष्ठभूमि
           </h1>
-          <p className="mb-6 text-left font-normal text-gray-600 lg:text-xl  dark:text-gray-400">
+          <p className="mb-6 text-left font-normal text-gray-600 lg:text-xl  ">
           <Link
               href="https://www.indiawaterportal.org/articles/background-meteorological-datasets"
               className="hover:text-arghyam"
@@ -41,18 +41,18 @@ export default function Home() {
           </p>
         </div>
         <div className=" text-left sm:px-16 xl:px-48">
-          <h1 className="mb-4  text-xl font-semibold leading-none tracking-normal text-gray-700 md:text-2xl lg:text-3xl dark:text-white">
+          <h1 className="mb-4  text-xl font-semibold leading-none tracking-normal text-gray-700 md:text-2xl lg:text-3xl ">
           डेटा स्वरूप
           </h1>
-          <p className="mb-6 text-left font-normal text-gray-600 lg:text-xl  dark:text-gray-400">
+          <p className="mb-6 text-left font-normal text-gray-600 lg:text-xl  ">
           विज़ुअलाइज़ करने के लिए डेटा सीएसवी प्रारूप और चार्ट में उपलब्ध है
           </p>
         </div>
         <div className=" text-left sm:px-16 xl:px-48">
-          <h1 className="mb-3  text-xl font-semibold leading-7  tracking-normal text-gray-800 md:text-2xl lg:text-3xl dark:text-white">
+          <h1 className="mb-3  text-xl font-semibold leading-7  tracking-normal text-gray-800 md:text-2xl lg:text-3xl ">
           अपने राज्य और जिले के अनुसार चार्ट प्राप्त करें
           </h1>
-          <div className="mb-6 text-left font-normal text-gray-600 lg:text-xl  dark:text-gray-400">
+          <div className="mb-6 text-left font-normal text-gray-600 lg:text-xl  ">
           <Link
               href="/charts"
               className="arghyam"

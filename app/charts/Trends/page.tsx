@@ -105,7 +105,7 @@ export default function Trends() {
   return (
     <div className="">
       <div className=" text-center sm:px-16 xl:px-48 mb-10  mt-16 lg:mt-28">
-        <h1 className="  text-3xl font-bold leading-none tracking-wide text-gray-500 md:text-4xl lg:text-4xl dark:text-white">
+        <h1 className="  text-3xl font-bold leading-none tracking-wide text-gray-500 md:text-4xl lg:text-4xl ">
         आप जिस प्रकार का चार्ट चाहते हैं उसका चयन करें
         </h1>
       </div>
