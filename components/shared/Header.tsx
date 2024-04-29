@@ -37,7 +37,7 @@ const Header = () => {
             </div>
           </div>
           <div className="lg:hidden flex items-center justify-end space-x-4">
-            <a href="https://iwp-metdata-frontend-hindi.vercel.app/" className="p-2">
+            <a href="https://iwp-metdata-frontend.vercel.app/" className="p-2">
               <Image src={"/global.png"} width={30} height={20} alt="IWF" />
             </a>{" "}
             <div>
