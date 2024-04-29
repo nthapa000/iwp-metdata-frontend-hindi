@@ -17,7 +17,7 @@ const DataDropDownDesktop = () => {
         onMouseEnter={toggleSubMenu}
         onMouseLeave={closeSubMenu}
       >
-        Data
+        डेटा
         <svg
           className="w-4 h-4 ml-1 fill-current text-gray-500"
           xmlns="http://www.w3.org/2000/svg"
@@ -32,25 +32,25 @@ const DataDropDownDesktop = () => {
             href="/"
             className="block px-4 justify-center h-full  py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700"
           >
-            People & Content
+            लोग और सामग्री
           </a>
           <a
             href="/"
             className="block px-4 py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700"
           >
-            Data Finder
+            डेटा खोजक
           </a>
           <a
             href="/"
             className="block px-4 py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700"
           >
-            Met Data
+            मेटडेटा
           </a>
           <a
             href="/"
             className="block px-4 py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700"
           >
-            State of Sanitation
+            स्वच्छता की स्थिति
           </a>
         </div>
       )}

@@ -22,24 +22,24 @@ const Header = () => {
           <div className="hidden lg:block">
             <div className="ml-4 flex items-center space-x-4">
               <a href="/" className="arghyam p-2">
-                Home
+              घर
               </a>
               <DataDropDownDesktop />
               <a href="/" className="arghyam p-2">
-                Articles
+              सामग्री
               </a>
               <a href="/" className="arghyam p-2">
-                Opportunities & Event
+              अवसर एवं घटना
               </a>
               <TopicsDesktop />
-              <Button label="Subscribe" />
+              <Button label="सदस्यता लें" />
               <Language />
             </div>
           </div>
           <div className="lg:hidden flex items-center justify-end space-x-4">
-            <Link href="https://hindi.indiawaterportal.org/" className="p-2">
+            <a href="/" className="p-2">
               <Image src={"/global.png"} width={30} height={20} alt="IWF" />
-            </Link>{" "}
+            </a>{" "}
             <div>
               <button
                 className="inline-flex items-center justify-center p-2 rounded-md"

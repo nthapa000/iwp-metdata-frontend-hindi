@@ -16,7 +16,7 @@ const TopicsDesktop = () => {
         onMouseEnter={toggleSubMenuTopic}
         onMouseLeave={closeSubMenuTopic}
       >
-        Topics
+        विषय
         <svg
           className="w-4 h-4 ml-1 fill-current text-gray-500"
           xmlns="http://www.w3.org/2000/svg"
@@ -31,31 +31,31 @@ const TopicsDesktop = () => {
             href="/"
             className="block px-4 py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700"
           >
-            Solid Waste
+           ठोस अपशिष्ट
           </a>
           <a
             href="/"
             className="block px-4 py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700"
           >
-            Rainwater Harvesting
+            जल छाजन
           </a>
           <a
             href="/"
             className="block px-4 py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700"
           >
-            Rural Sanitation
+            ग्रामीण स्वच्छता
           </a>
           <a
             href="/"
             className="block px-4 py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700"
           >
-            Agriculture
+            कृषि
           </a>
           <a
             href="/"
             className="block px-4 py-2 text-gray-800 hover:bg-gray-100  dark:hover:bg-gray-700"
           >
-            View all Topics
+            सभी विषय देखें
           </a>
         </div>
       )}

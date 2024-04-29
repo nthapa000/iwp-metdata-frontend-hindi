@@ -7,22 +7,22 @@ const Footer = () => {
     <div className="flex flex-col md:flex-row  ">
       <div className="ml-4  w-full  ">
         <Link href="https://www.indiawaterportal.org/about" className="text-md font-bold mb-2 arghyam ">
-          About
+        के बारे में
         </Link>
       </div>
       <div className="ml-4 mt-2 w-full ">
         <Link href="https://www.indiawaterportal.org/contact-us" className="text-md font-bold mb-2 arghyam ">
-        Contact
+        संपर्क
         </Link>
       </div>
       <div className="ml-4 mt-2 w-full ">
         <Link href="https://www.indiawaterportal.org/static-page/terms-use" className="text-md font-bold mb-2 arghyam">
-        Terms of use
+        उपयोग की शर्तें
         </Link>
       </div>
       <div className="ml-4 mt-2 w-full">
         <Link href="https://www.indiawaterportal.org/static-page/privacy-policy" className="text-md font-bold mb-2 arghyam">
-       Privacy policy
+        गोपनीयता नीति
         </Link>
       </div>
     </div>

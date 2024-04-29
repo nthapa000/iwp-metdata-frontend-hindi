@@ -8,8 +8,8 @@ import { Suspense } from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "India Water Portal - Met Data For Everyone",
-  description: "Visualize and Analyze the data collected over 100 years for more than 12 meterological parameters",
+  title: "भारत जल पोर्टल - सभी के लिए मौसम संबंधी डेटा",
+  description: "12 से अधिक मौसम संबंधी मापदंडों के लिए 100 वर्षों में एकत्र किए गए डेटा की कल्पना और विश्लेषण करें",
 };
 
 export default function RootLayout({

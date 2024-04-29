@@ -23,8 +23,8 @@ export default function AnnualMean() {
 
   return (
     <div>
-      <h1 className='text-2xl m-4 '>Annual Mean between year {fromYear} to {toYear}:</h1>
-      <p>Annual Mean: {calculateAnnualMean(finalData).toFixed(2)}</p>
+      <h1 className='text-2xl m-4 '>वर्ष के बीच वार्षिक माध्य {fromYear} से {toYear}:</h1>
+      <p>वार्षिक माध्य: {calculateAnnualMean(finalData).toFixed(2)}</p>
     </div>
   );
 }

@@ -106,7 +106,7 @@ export default function Trends() {
     <div className="">
       <div className=" text-center sm:px-16 xl:px-48 mb-10  mt-16 lg:mt-28">
         <h1 className="  text-3xl font-bold leading-none tracking-wide text-gray-500 md:text-4xl lg:text-4xl dark:text-white">
-          Select the type of Chart you want
+        आप जिस प्रकार का चार्ट चाहते हैं उसका चयन करें
         </h1>
       </div>
       <div className="flex justify-center ">
@@ -116,21 +116,21 @@ export default function Trends() {
             onClick={() => toggleContent(1)}
             className="py-3 px-4 inline-flex items-center gap-x-2 text-sm lg:text-lg font-semibold rounded-lg border border-transparent text-gray-500 hover:bg-gray-100 hover:text-arghyam disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:bg-neutral-800 md:w-40 "
           >
-            Line Chart
+            पंक्ति चार्ट
           </button>
           <button
             type="button"
             onClick={() => toggleContent(2)}
             className="py-3 px-4 inline-flex items-center gap-x-2 lg:text-lg text-sm font-semibold rounded-lg border border-transparent text-gray-500 hover:bg-gray-100 hover:text-arghyam disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:bg-neutral-800 md:w-40"
           >
-            Scatter Chart
+           स्कैटर चार्ट
           </button>
           <button
             type="button"
             onClick={() => toggleContent(3)}
             className="py-3 px-4 inline-flex items-center gap-x-2 lg:text-lg text-sm font-semibold rounded-lg border border-transparent text-gray-500 hover:bg-gray-100 hover:text-arghyam disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:bg-neutral-800 md:w-40"
           >
-            Bar Chart
+            बार चार्ट
           </button>
         </div>
       </div>
@@ -162,8 +162,8 @@ export default function Trends() {
             </LineChart>
           </ResponsiveContainer>
           <div className="flex justify-center mt-4">
-            <button onClick={handleSaveClick} className="hover:text-arghyam ">
-              Download Chart as PDF
+            <button onClick={handleSaveClick} className="arghyam ">
+            चार्ट को पीडीएफ के रूप में डाउनलोड करें
             </button>
           </div>
         </div>
@@ -196,8 +196,8 @@ export default function Trends() {
             </ScatterChart>
           </ResponsiveContainer>
           <div className="flex justify-center mt-4">
-            <button onClick={handleSaveClick} className="hover:text-arghyam ">
-              Download Chart as PDF
+            <button onClick={handleSaveClick} className="arghyam ">
+            चार्ट को पीडीएफ के रूप में डाउनलोड करें
             </button>
           </div>
         </div>
@@ -230,8 +230,8 @@ export default function Trends() {
             </BarChart>
           </ResponsiveContainer>
           <div className="flex justify-center mt-4">
-            <button onClick={handleSaveClick} className="hover:text-arghyam ">
-              Download Chart as PDF
+            <button onClick={handleSaveClick} className="arghyam ">
+            चार्ट को पीडीएफ के रूप में डाउनलोड करें
             </button>
           </div>
         </div>

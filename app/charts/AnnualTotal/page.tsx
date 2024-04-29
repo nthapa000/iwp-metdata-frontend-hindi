@@ -24,12 +24,12 @@ export default function AnnualTotal() {
   
   return (
     <div>
-      <h1 className='text-2xl m-4 '>Annual Total for Each Year:</h1>
+      <h1 className='text-2xl m-4 '>प्रत्येक वर्ष के लिए वार्षिक कुल:</h1>
       <ul>
         {calculateAnnualTotal(finalData).map((annualData:any, index:any) => (
           <li key={index} className='m-4'>
-            <p>Year: {annualData.year}</p>
-            <p>Total: {annualData.total}</p>
+            <p>वर्ष: {annualData.year}</p>
+            <p>कुल: {annualData.total}</p>
           </li>
         ))}
       </ul>

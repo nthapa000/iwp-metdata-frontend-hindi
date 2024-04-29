@@ -15,14 +15,14 @@ const MobileDropdown = () => {
         <div className="lg:hidden">
           <div className="px-6 pt-2 pb-3 space-y-1 sm:px-8 ">
             <a href="/" className="hover:text-arghyam p-2 block">
-              Home
+            घर
             </a>
             <div className="relative">
               <a
                 className="hover:text-arghyam p-2 flex items-center"
                 onClick={toggleSubMenu}
               >
-                Data
+                डेटा
                 <svg
                   className="w-4 h-4 ml-1 fill-current  text-gray-500"
                   xmlns="http://www.w3.org/2000/svg"
@@ -37,41 +37,41 @@ const MobileDropdown = () => {
                     href="/"
                     className="block px-4 py-2 text-gray-800 hover:text-arghyam"
                   >
-                    People & Content
+                    लोग और सामग्री
                   </a>
                   <a
                     href="/"
                     className="block px-4 py-2 text-gray-800 hover:text-arghyam"
                   >
-                    Data Finder
+                    डेटा खोजक
                   </a>
                   <a
                     href="/"
                     className="block px-4 py-2 text-gray-800 hover:text-arghyam"
                   >
-                    Met Data
+                   मेटडेटा
                   </a>
                   <a
                     href="/"
                     className="block px-4 py-2 text-gray-800 hover:text-arghyam"
                   >
-                    State of Sanitation
+                   स्वच्छता की स्थिति
                   </a>
                 </div>
               )}
             </div>
             <a href="/" className="hover:text-arghyam p-2 block">
-              Articles
+            सामग्री
             </a>
             <a href="/" className="hover:text-arghyam p-2 block">
-              Opportunities & Events
+            अवसर एवं घटनाएँ
             </a>
             <div className="relative">
               <a
                 className="hover:text-arghyam p-2 flex items-center"
                 onClick={toggleSubMenuTopic}
               >
-                Topics
+               विषय
                 <svg
                   className="w-4 h-4 ml-1 fill-current text-gray-500"
                   xmlns="http://www.w3.org/2000/svg"
@@ -87,40 +87,40 @@ const MobileDropdown = () => {
                     href="/"
                     className="block px-4 py-2 text-gray-800 hover:text-arghyam"
                   >
-                    Solid Waste
+                    ठोस अपशिष्ट
                   </a>
                   <a
                     href="/"
                     className="block px-4 py-2 text-gray-800  hover:text-arghyam"
                   >
-                    Rainwater Harvesting
+                    जल छाजन
                   </a>
                   <a
                     href="/"
                     className="block px-4 py-2 text-gray-800 hover:text-arghyam"
                   >
-                    Rural Sanitation
+                    ग्रामीण स्वच्छता
                   </a>
                   <a
                     href="/"
                     className="block px-4 py-2 text-gray-800 hover:text-arghyam"
                   >
-                    Agriculture
+                   कृषि
                   </a>
                   <a
                     href="/"
                     className="block px-4 py-2 text-gray-800 hover:text-arghyam"
                   >
-                    View all Topics
+                   सभी विषय देखें
                   </a>
                 </div>
               )}
               <div className="p-2">
                 <span className="tracking-wider text-xl font-semibold">
-                  <Link href="https://hindi.indiawaterportal.org/">हिंदी</Link>
+                  <Link href="/">हिंदी</Link>
                 </span>
                 <span className="m-4 tracking-wider text-xl  ">
-                  <a href="/">English</a>
+                  <a href="https://iwp-metdata-frontend.vercel.app/">English</a>
                 </span>
               </div>
               <button
@@ -131,7 +131,7 @@ const MobileDropdown = () => {
                   letterSpacing: ".5px",
                 }}
               >
-                Subscribe
+               सदस्यता लें
               </button>
             </div>
           </div>

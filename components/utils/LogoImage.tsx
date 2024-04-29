@@ -6,7 +6,7 @@ const LogoImage = () => {
     <div className="flex items-center">
     <div className="flex-shrink-0">
       <a href="/">
-        <Image src={"/IWF.png"} width={128} height={40} alt="IWF" />
+        <Image src={"/image.png"} width={128} height={40} alt="IWF" />
       </a>
     </div>
   </div>

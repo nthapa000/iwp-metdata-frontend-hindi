@@ -25,12 +25,12 @@ export default function MonthlyMean() {
 
   return (
     <div>
-      <h1 className='text-2xl m-4 '>Monthly Mean for Each Year:</h1>
+      <h1 className='text-2xl m-4 '>प्रत्येक वर्ष के लिए मासिक औसत:</h1>
       <ul>
         {calculateMonthlyMeans(finalData).map((meanData:any, index:any) => (
           <li key={index} className='m-4'>
-            <p>Year: {meanData.year}</p>
-            <p>Monthly Mean: {meanData.monthlyMean.toFixed(2)}</p>
+            <p>वर्ष: {meanData.year}</p>
+            <p>मासिक माध्य: {meanData.monthlyMean.toFixed(2)}</p>
           </li>
         ))}
       </ul>
