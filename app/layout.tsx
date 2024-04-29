@@ -24,7 +24,7 @@ export default function RootLayout({
       <Suspense>
         {children}
         </Suspense>
-      <Footer />
+      {/* <Footer /> */}
       </body>
     </html>
   );
