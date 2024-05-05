@@ -82,7 +82,7 @@ const MobileDropdown = () => {
               </a>
 
               {isTopicOpen && (
-                <div className=" left-0 mt-2 w-60 bg-white  dark:bg-gray-800 dark:border-gray-600">
+                <div className=" left-0 mt-2 w-60 bg-white ">
                   <a
                     href="/"
                     className="block px-4 py-2 text-gray-800 hover:text-arghyam"

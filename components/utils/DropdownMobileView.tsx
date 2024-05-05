@@ -10,7 +10,7 @@ const DropdownMobileView = () => {
   };
   return (
     <div className="lg:hidden flex items-center justify-end space-x-4">
-      <Link href="https://hindi.indiawaterportal.org/" className="p-2">
+      <Link href="https://iwp-metdata-frontend.vercel.app/" className="p-2">
         <Image src={"/global.png"} width={30} height={20} alt="IWF" />
       </Link>{" "}
       <div>

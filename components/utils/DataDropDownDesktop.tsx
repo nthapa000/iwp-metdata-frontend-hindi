@@ -27,28 +27,28 @@ const DataDropDownDesktop = () => {
         </svg>
       </a>
       {isOpen && (
-        <div className="absolute z-10 left-0 mt-2 w-60 bg-white border border-gray-200 rounded-md shadow-lg dark:bg-gray-800 dark:border-gray-600">
+        <div className="absolute z-10 left-0 mt-2 w-60 bg-white border border-gray-200 rounded-md shadow-lg ">
           <a
             href="/"
-            className="block px-4 justify-center h-full  py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700"
+            className="block px-4 justify-center h-full  py-2 text-gray-800 hover:bg-gray-100 "
           >
             लोग और सामग्री
           </a>
           <a
             href="/"
-            className="block px-4 py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700"
+            className="block px-4 py-2 text-gray-800 hover:bg-gray-100 "
           >
             डेटा खोजक
           </a>
           <a
             href="/"
-            className="block px-4 py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700"
+            className="block px-4 py-2 text-gray-800 hover:bg-gray-100 "
           >
             मेटडेटा
           </a>
           <a
             href="/"
-            className="block px-4 py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700"
+            className="block px-4 py-2 text-gray-800 hover:bg-gray-100 "
           >
             स्वच्छता की स्थिति
           </a>
